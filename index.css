@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    background-image: url("../images/restaurant.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height: 200px;
+    
+}
+#restaurant-name {
+    justify-self: center;
+    color: white;
+    min-height: 100px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    justify-content: center;
+    min-height: 40px;
+}
+
+nav > * {
+    background-color: inherit;
+    color: white;
+    min-width: 80px;
+    border: none;
+    font-size: 25px;
+}
+
+button:hover {
+    text-decoration: underline;
+    float: top;
+    position: relative;
+    bottom: 10px;
+}
+
+#container {
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+    font-weight: bold;
+}
+#homepage {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+#homepage > * {
+    max-width: 80%;
+    margin: 5px;
+}
+
+#face {
+    min-height: 300px;
+    max-width: 300px;
+    border-radius: 50%;
+    opacity: 90%;
+    flex: 1;
+}
+
+#menupage {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 80%;
+}
+
+#item {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 5px;
+
+}
+
+#contactpage {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 80%;
+    color: black;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone {
+    height: 24px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactpage > img {
+    height: 300px;
+
+}
