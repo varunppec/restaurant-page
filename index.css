@@ -1,6 +1,5 @@
 html, body {
     margin: 0;
-    background-image: url("../images/restaurant.jpg");
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
